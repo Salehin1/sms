@@ -73,5 +73,16 @@ namespace Coffee_Shop
             coffeeNameComboBox.Text = "";
             quantityTextBox.Text = "";
         }
+        
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
