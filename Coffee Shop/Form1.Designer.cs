@@ -40,8 +40,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.quantityTextBox = new System.Windows.Forms.TextBox();
             this.order = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -155,35 +153,12 @@
             this.order.UseVisualStyleBackColor = true;
             this.order.Click += new System.EventHandler(this.order_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(445, 341);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(594, 346);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 11;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(773, 450);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.order);
             this.Controls.Add(this.quantityTextBox);
             this.Controls.Add(this.label6);
@@ -217,8 +192,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox quantityTextBox;
         private System.Windows.Forms.Button order;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
